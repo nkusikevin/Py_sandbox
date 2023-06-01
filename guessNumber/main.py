@@ -1,5 +1,6 @@
 import random
 
+
 def guess_number():
     number = random.randint(0, 100)
     while True:
@@ -16,6 +17,7 @@ def guess_number():
             else:
                 print("Thank you for playing!")
                 return
+
 
 guess_number()
 
